@@ -45,7 +45,7 @@ button {
   transition: all 1s;
   cursor: pointer;
   color: #ffffff;
-  border: 1px solid #C4C4C4;
+  border: none;
 }
 
 .section {
@@ -61,8 +61,8 @@ button {
   height: 2px;
   padding-top: 5px;
   margin-left: 80px;
-  border-top: 2px solid #44d3a8;
-  border-bottom: 2px solid #44d3a8;
+  border-top: 2px solid #C4C4C4;
+  border-bottom: 2px solid #C4C4C4;
 }
 
 .section::after {
@@ -71,8 +71,8 @@ button {
   height: 2px;
   margin-right: 80px;
   padding-top: 5px;
-  border-top: 2px solid #44d3a8;
-  border-bottom: 2px solid #44d3a8;
+  border-top: 2px solid #C4C4C4;
+  border-bottom: 2px solid #C4C4C4;
 }
 
 button:hover {
